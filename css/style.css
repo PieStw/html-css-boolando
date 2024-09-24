@@ -73,19 +73,19 @@
     margin: 40px 10px;
   }
 
-  .card-container>.image1{
+  .image{
     height: 700px;
   }
 
-  .card-container>.image2{
+  .image>.img1{
+    height: 700px;
+  }
+
+  .image>.img2{
     height: 700px;
     display: none;
   }
 
-  .info{
-    padding-top: 5px;
-  }
-  
   .info>p{
     font-size: 14px;
   }
@@ -105,10 +105,10 @@
     text-align: center;
   }
 
-  .card-container:hover .image1{
+  .card-container:hover .img1{
     display: none;
   }
 
-  .card-container:hover .image2{
+  .card-container:hover .img2{
     display: block;
   }
