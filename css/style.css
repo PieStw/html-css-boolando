@@ -66,13 +66,12 @@
     flex-wrap: wrap;
     font-family: sans-serif;
     height: 1500px;
-    margin-top: 40px;
-    justify-content: space-between;
+    margin-top: 50px;
+    justify-content: space-evenly;
   }
 
   .card-container{
     height: 800px;
-    margin: 10px 10px;
   }
 
   .image{
@@ -117,4 +116,29 @@
 
   .heart-container:hover i{
     color: red;
+  }
+
+  .discount-container{
+    display: flex;
+  }
+
+  .discount{
+    position: relative;
+    bottom: 200px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-right: 5px;
+  }
+
+  .number{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+  }
+
+  .sustainability{
+    height: 30px;
+    width: 100px;
+    background-color: green;
   }
