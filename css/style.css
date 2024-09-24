@@ -65,21 +65,50 @@
     display: flex;
     flex-wrap: wrap;
     font-family: sans-serif;
+    height: 1500px;
   }
 
   .card-container{
-    height: 500px;
-    margin: 50px 10px;
+    height: 800px;
+    margin: 40px 10px;
   }
 
-  .image{
+  .card-container>.image1{
     height: 700px;
   }
 
+  .card-container>.image2{
+    height: 700px;
+    display: none;
+  }
+
+  .info{
+    padding-top: 5px;
+  }
+  
   .info>p{
     font-size: 14px;
   }
 
   .info>p>strong>span{
     color: red;
+  }
+
+  .heart-container{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: relative;
+    left: 425px;
+    bottom: 740px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .card-container:hover .image1{
+    display: none;
+  }
+
+  .card-container:hover .image2{
+    display: block;
   }
