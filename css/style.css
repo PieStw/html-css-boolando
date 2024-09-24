@@ -112,3 +112,7 @@
   .card-container:hover .img2{
     display: block;
   }
+
+  .heart-container:hover i{
+    color: red;
+  }
