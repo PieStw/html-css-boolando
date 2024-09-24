@@ -5,12 +5,12 @@
     margin: 0;
     padding: 0;
   }
-
   a{
     text-decoration: none;
     color:black;
     
   }
+  
   
   /* # UTILS */
   
@@ -67,87 +67,15 @@
 
   /* # MAIN */
 
-  .section{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: sans-serif;
-    height: 1600px;
-    margin-top: 50px;
-    justify-content: space-evenly;
-  }
+  
+    .info{
+      height: 720px;
+      margin-top: 51px;
+    }
 
-  .card-container{
-    height: 800px;
-  }
-
-  .image{
-    height: 700px;
-  }
-
-  .image>.img1{
-    height: 700px;
-  }
-
-  .image>.img2{
-    height: 700px;
-    display: none;
-  }
-
-  .info>p{
-    font-size: 14px;
-  }
-
-  .info>p>strong>span{
-    color: red;
-  }
-
-  .heart-container{
-    height: 60px;
-    width: 60px;
-    background-color: white;
-    position: relative;
-    left: 425px;
-    bottom: 740px;
-    line-height: 60px;
-    text-align: center;
-  }
-
-  .card-container:hover .img1{
-    display: none;
-  }
-
-  .card-container:hover .img2{
-    display: block;
-  }
-
-  .heart-container:hover i{
-    color: red;
-  }
-
-  .discount-container{
-    display: flex;
-  }
-
-  .discount{
-    position: relative;
-    bottom: 200px;
-    line-height: 30px;
-    text-align: center;
-    color: white;
-    margin-right: 5px;
-  }
-
-  .number{
-    height: 30px;
-    width: 60px;
-    background-color: red;
-  }
-
-  .sustainability{
-    height: 30px;
-    width: 100px;
-    background-color: green;
-  }
+    .img1, .img2{
+      height: 400px;
+    }
 
 
    /* # FOOTER */
